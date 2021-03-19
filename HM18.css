@@ -1,0 +1,246 @@
+body {
+	margin: 0;
+	background: white;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+header {
+  background:rgb(231, 228, 219);
+}
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+nav {
+  float: right;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+nav a:hover {
+  color: #000;
+}
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+nav a:hover::before {
+  width: 100%;
+}
+.content{
+    display: center; 
+    padding: 50px;
+    width: 50%;
+    margin-left: 1%;
+    background-image: linear-gradient(pink,#bca8db);
+}
+.content { 
+    text-align: center;
+    width: 90vw; 
+    height: 50vh;
+   display: flex;
+  justify-content: left;
+  
+}
+.content h1 {
+  background-repeat:no-repeat;
+  background-size:100%;
+  background-position:center;
+  width:100%;
+  height:100px;
+  text-align:center;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background-color: rgb(231, 228, 219);
+  border-radius: 25px;
+}
+.content h2 {
+  background-repeat:no-repeat;
+  background-size:100%;
+  background-position:center;
+  width:100%;
+  height:170px;
+  text-align:center;
+  display:flex;
+  align-items:flex-end;
+  justify-content:space-between;	
+  background-color: rgb(231, 228, 219);
+  border-radius: 25px;
+
+}
+.header{
+  color: black;
+  background-color: rgb(231, 228, 219);
+}
+.flexContainer1{
+    display: grid;
+    height: 400px;
+    align-content: center;
+    grid-template-columns: center center center;
+    grid-gap: 10px;
+    padding: 10px;;
+}
+#DHStxt{
+text-align: center;
+}
+.DHScenter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button1 {
+  grid-area: hover;
+  background-color: lavender;
+  color: purple;
+  width: 100px;
+  text-align: center;
+  height: 50px;
+  transition: 0.3s;
+}
+.button1:hover {
+  background:linear-gradient(plum, violet);
+  box-shadow:10px 10px navy;
+}
+.flexContainer2{
+    display: grid;
+    height: 400px;
+    align-content: center;
+    grid-template-columns: center center center;
+    grid-gap: 10px;
+    padding: 10px;
+}
+#Azendatxt{
+text-align: center;
+}
+.Azendacenter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.button2 {
+  grid-area: hover;
+  background-color: lavender;
+  color: purple;
+  width: 100px;
+  text-align: center;
+  height: 50px;
+  transition: 0.3s;
+}
+.button2:hover {
+  background:linear-gradient(plum, violet);
+  box-shadow:10px 10px navy;
+}
+.flexContainer3{
+  display: grid;
+  height: 400px;
+  align-content: center;
+  grid-template-columns: center center center;
+  grid-gap: 10px;
+  padding: 10px;
+}
+#Fairlytxt{
+  text-align: center;
+}
+.Fairlycenter{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.button3 {
+  grid-area: hover;
+  background-color: lavender;
+  color: purple;
+  width: 100px;
+  text-align: center;
+  height: 50px;
+  transition: 0.3s;
+}
+.button3:hover {
+  background:linear-gradient(plum, violet);
+  box-shadow:10px 10px navy;
+}
+.footer {
+	width: 95%;
+	margin: 0 auto;
+}
+.footer{
+  background:rgb(231, 228, 219);
+}
+.footer::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+nav {
+  float: right;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+  position: relative;
+}
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+nav a:hover {
+  color: #000;
+}
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+  position: absolute;
+  top: 0;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+nav a:hover::before {
+  width: 100%;
+}
